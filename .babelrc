@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "babel-plugin-syntax-dynamic-import"
+  ],
+  "presets": [
+    ["es2015", { "modules": false }],
+    "react"
+  ],
+  "env": {
+    "local": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    },
+    "es": {
+    },
+    "test": {
+      "plugins": []
+    }
+  }
+}

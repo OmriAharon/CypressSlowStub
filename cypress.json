@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://local-field.b360-dev.autodesk.com:3000",
+  "chromeWebSecurity": false,
+  "blacklistHosts": [
+    "*google.com"
+  ]
+}

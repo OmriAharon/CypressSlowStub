@@ -1,0 +1,40 @@
+{
+  "name": "cypress-stub",
+  "version": "1.0.0",
+  "description": "small reproducible scenario for stubbing",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "cross-env": "^5.2.0",
+    "cypress": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-hot-loader": "^4.1.2",
+    "webpack": "^4.5.0",
+    "webpack-dashboard": "^1.0.0-5",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "start": "node_modules/.bin/cross-env BABEL_ENV=local HOST_PROTOCOL=http NODE_ENV=local NODE_PORT=3000 HOST_ADDRESS=local-field.b360-dev.autodesk.com node --harmony --max_old_space_size=4096 server.js"
+  },
+  "author": "Omri Aharon",
+  "license": "ISC"
+}
