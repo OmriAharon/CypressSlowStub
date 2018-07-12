@@ -23,9 +23,11 @@
     "cross-env": "^5.2.0",
     "cypress": "^3.0.2",
     "html-webpack-plugin": "^3.2.0",
+    "opn": "^5.3.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-hot-loader": "^4.1.2",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.5.0",
     "webpack-dashboard": "^1.0.0-5",
     "webpack-dev-server": "^3.1.3"
@@ -33,7 +35,7 @@
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
-    "start": "node_modules/.bin/cross-env BABEL_ENV=local HOST_PROTOCOL=http NODE_ENV=local NODE_PORT=3000 HOST_ADDRESS=local-field.b360-dev.autodesk.com node --harmony --max_old_space_size=4096 server.js"
+    "start": "node_modules/.bin/cross-env BABEL_ENV=local HOST_PROTOCOL=http NODE_ENV=local NODE_PORT=3000 HOST_ADDRESS=localhost node --harmony --max_old_space_size=4096 server.js"
   },
   "author": "Omri Aharon",
   "license": "ISC"
