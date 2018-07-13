@@ -1,0 +1,744 @@
+cypress:cli cli starts with arguments ["/Users/omriaharon/.nvm/versions/node/v6.11.0/bin/node","/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/node_modules/.bin/cypress","open"] +0ms
+  cypress:cli NODE_OPTIONS is not set +0ms
+  cypress:cli program parsing arguments +4ms
+  cypress:cli opening Cypress +1ms
+  cypress:cli parsed cli options {} +81ms
+  cypress:cli opening from options {"project":"/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub"} +0ms
+  cypress:cli command line arguments ["--project","/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub"] +1ms
+  cypress:cli verifying Cypress app +0ms
+  cypress:cli checking environment variables +1ms
+  cypress:cli checking if executable exists /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/MacOS/Cypress +3ms
+  cypress:cli Binary is executable? : true +2ms
+  cypress:cli binaryDir is  /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app +0ms
+  cypress:cli Reading binary package.json from: /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/package.json +0ms
+  cypress:cli Found binary version 3.0.2 installed in: /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app +3ms
+  cypress:cli { verified: true } +5ms
+  cypress:cli is Verified ? true +2ms
+  cypress:cli needs XVFB? false +0ms
+  cypress:cli spawning Cypress with executable: /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/MacOS/Cypress +4ms
+  cypress:cli spawn forcing env overrides { FORCE_COLOR: '1', DEBUG_COLORS: '1', MOCHA_COLORS: '1', FORCE_STDIN_TTY: '1', FORCE_STDOUT_TTY: '1', FORCE_STDERR_TTY: '1' } +0ms
+  cypress:cli spawn args [ '--project', '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', '--cwd', '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' ] { dev: undefined, detached: false, stdio: 'inherit' } +1ms
+  cypress:ts Running without ts-node hook in environment "production" +0ms
+  cypress:server:cypress starting cypress with argv [ '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/MacOS/Cypress', '--project', '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', '--cwd', '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' ] +0ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production +458ms
+  cypress:server:cypress start in mode interactive with options {"_":["/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/MacOS/Cypress"],"project":"/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub","cwd":"/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub","projectRoot":"/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub"} +43ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/browsers +678ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production +137ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +6ms
+  cypress:server:timers queuing timer id 1 after 500 ms +2s
+  cypress:server:timers child received timer id 1 +0ms
+  cypress:server:timers child sending timer id 1 +505ms
+  cypress:server:timers clearing timer id 1 from queue { '1': { args: [], ms: 500, cb: [Function] } } +508ms
+  cypress:server:saved_state making saved state from /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server +9ms
+  cypress:server:saved_state for project path /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:saved_state state path for project /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +1ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:saved_state full state path /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +1ms
+  cypress:server:saved_state making new state file around /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:file get values from /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:file attempt to get lock on /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:file gettin lock succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +2ms
+  cypress:server:file read /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +1ms
+  cypress:server:file read succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +1ms
+  cypress:server:file attempt to unlock /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:timers queuing timer id 2 after 2000 ms +0ms
+  cypress:server:timers child received timer id 2 +17ms
+  cypress:server:timers clearing timer id 2 from queue { '2': { args: [], ms: 2000, cb: [Function: timeoutTimeout] } } +1ms
+  cypress:server:file unlock succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:windows creating electron window with options { backgroundColor: '#dfe2e4', width: 800, height: 550, minWidth: 458, minHeight: 400, x: null, y: null, type: 'INDEX', devTools: false, trackState: { width: 'appWidth', height: 'appHeight', x: 'appX', y: 'appY', devTools: 'isAppDevToolsOpen' }, onBlur: [Function: onBlur], onFocus: [Function: onFocus], onClose: [Function: onClose], show: true, frame: true, transparent: false, url: 'file:///Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/desktop-gui/dist/index.html', webPreferences: { preload: '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server/lib/ipc/ipc.js', chromeWebSecurity: true, nodeIntegration: false, backgroundThrottling: false, backgroundColor: '#dfe2e4', transparent: false }, contextMenu: false, recordFrameRate: null, onPaint: null, onCrashed: [Function: onCrashed], onNewWindow: [Function: onNewWindow] } +67ms
+  cypress:server:events got request for event: on:menu:clicked, undefined +596ms
+  cypress:server:events got request for event: get:options, undefined +0ms
+  cypress:server:events sending ipc data { type: 'get:options', data: { id: 0.5559839695218309, data: { _: [Array], project: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', cwd: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', projectRoot: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', onFocusTests: [Function: onFocusTests], os: 'darwin', version: '3.0.2' } } } +1ms
+  cypress:server:events got request for event: get:current:user, undefined +0ms
+  cypress:server:file get values from /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +2ms
+  cypress:server:file attempt to get lock on /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +0ms
+  cypress:server:file gettin lock succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +2ms
+  cypress:server:file read /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +0ms
+  cypress:server:file read succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +0ms
+  cypress:server:file attempt to unlock /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +0ms
+  cypress:server:timers queuing timer id 3 after 2000 ms +0ms
+  cypress:server:timers child received timer id 3 +669ms
+  cypress:server:timers clearing timer id 3 from queue { '3': { args: [], ms: 2000, cb: [Function: timeoutTimeout] } } +1ms
+  cypress:server:file unlock succeeded or failed for /Users/omriaharon/Library/Application Support/Cypress/cy/production/cache +0ms
+  cypress:server:events sending ipc data { type: 'get:current:user', data: { id: 0.041741779207701724, data: {} } } +0ms
+  cypress:server:events got request for event: on:focus:tests, undefined +58ms
+  cypress:server:events got request for event: on:spec:changed, undefined +0ms
+  cypress:server:events got request for event: on:config:changed, undefined +0ms
+  cypress:server:events got request for event: on:project:error, undefined +1ms
+  cypress:server:events got request for event: on:project:warning, undefined +0ms
+  cypress:server:events got request for event: open:project, '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' +0ms
+  cypress:server:project Project created /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:events got request for event: updater:check, undefined +2ms
+  cypress:server:updater checking for new version of Cypress. current version is 3.0.2 +0ms
+  cypress:launcher checking one browser chrome +0ms
+  cypress:launcher looking up chrome on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome id com.google.Chrome +1ms
+  cypress:launcher looking for bundle id com.google.Chrome using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome at /Applications/Google Chrome.app +56ms
+  cypress:launcher reading property file "/Applications/Google Chrome.app/Contents/Info.plist" +1ms
+  cypress:launcher setting major version for {"name":"chrome","displayName":"Chrome","version":"66.0.3359.170","path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"} +10ms
+  cypress:launcher browser chrome version 66.0.3359.170 major version 66 +1ms
+  cypress:launcher checking one browser chromium +0ms
+  cypress:launcher looking up chromium on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Chromium id org.chromium.Chromium +0ms
+  cypress:launcher looking for bundle id org.chromium.Chromium using command: mdfind 'kMDItemCFBundleIdentifier=="org.chromium.Chromium"' | head -1 +0ms
+  cypress:launcher found org.chromium.Chromium at  +47ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +1ms
+  cypress:launcher looking for application /Applications/Chromium.app +0ms
+  cypress:launcher reading property file "/Applications/Chromium.app/Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for /Applications/Chromium.app/Contents/Info.plist +0ms
+  cypress:launcher could not detect chromium using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "chromium-browser --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c chromium-browser --version
+/bin/sh: chromium-browser: command not found
+ +9ms
+  cypress:launcher browser chromium not installed +0ms
+  cypress:launcher checking one browser canary +0ms
+  cypress:launcher looking up canary on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome Canary id com.google.Chrome.canary +0ms
+  cypress:launcher looking for bundle id com.google.Chrome.canary using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome.canary"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome.canary at  +53ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +0ms
+  cypress:launcher looking for application /Applications/Google Chrome Canary.app +0ms
+  cypress:launcher reading property file "/Applications/Google Chrome Canary.app/Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for /Applications/Google Chrome Canary.app/Contents/Info.plist +1ms
+  cypress:launcher could not detect canary using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "google-chrome-canary --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c google-chrome-canary --version
+/bin/sh: google-chrome-canary: command not found
+ +8ms
+  cypress:launcher browser canary not installed +0ms
+  cypress:server:openproject opening project /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +197ms
+  cypress:server:project opening project instance /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +1ms
+  cypress:server:config setting support file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support +7ms
+  cypress:server:config for project root /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:config set support folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support +1ms
+  cypress:server:config setting plugins file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins +0ms
+  cypress:server:config for project root /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:config set pluginsFile to /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js +0ms
+  cypress:server:scaffold scaffolded files ["cypress/integration/examples/actions.spec.js","cypress/integration/examples/aliasing.spec.js","cypress/integration/examples/assertions.spec.js","cypress/integration/examples/connectors.spec.js","cypress/integration/examples/cookies.spec.js","cypress/integration/examples/cypress_api.spec.js","cypress/integration/examples/files.spec.js","cypress/integration/examples/local_storage.spec.js","cypress/integration/examples/location.spec.js","cypress/integration/examples/misc.spec.js","cypress/integration/examples/navigation.spec.js","cypress/integration/examples/network_requests.spec.js","cypress/integration/examples/querying.spec.js","cypress/integration/examples/spies_stubs_clocks.spec.js","cypress/integration/examples/traversal.spec.js","cypress/integration/examples/utilities.spec.js","cypress/integration/examples/viewport.spec.js","cypress/integration/examples/waiting.spec.js","cypress/integration/examples/window.spec.js","cypress/fixtures/example.json","cypress/support/commands.js","cypress/support/index.js","cypress/plugins/index.js"] +4ms
+  cypress:server:saved_state making saved state from /Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server +1ms
+  cypress:server:saved_state for project path /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:saved_state state path for project /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:saved_state full state path /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +0ms
+  cypress:server:file get values from /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/state.json +1ms
+  cypress:server:scaffold found 1 files in folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +7ms
+  cypress:server:scaffold determine if we should scaffold: +0ms
+  cypress:server:scaffold - empty? false +0ms
+  cypress:server:scaffold - different number of files? true +1ms
+  cypress:server:scaffold - same sizes? false +0ms
+  cypress:server:scaffold untouched scaffold false modal closed false +0ms
+  cypress:server:scaffold plugins folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins +1ms
+  cypress:server:scaffold verify scaffolding in /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins +0ms
+  cypress:server:scaffold folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins already exists +0ms
+  cypress:server:plugins plugins.init /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js +1ms
+  cypress:server:plugins:child pluginsFile: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js +0ms
+  cypress:server:plugins:child require pluginsFile +2ms
+  cypress:server:plugins:child run plugins function +2ms
+  cypress:server:plugins:child register event _get:task:body with id 0 +0ms
+  cypress:server:plugins:child register event _get:task:keys with id 1 +0ms
+  cypress:server:plugins register plugins process event _get:task:body with id 0 +218ms
+  cypress:server:plugins register event '_get:task:body' +0ms
+  cypress:server:plugins register plugins process event _get:task:keys with id 1 +0ms
+  cypress:server:plugins register event '_get:task:keys' +0ms
+  cypress:server:project plugin config yielded: null +0ms
+  cypress:server:server Server listening on port 59320 +119ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/proxy +1ms
+  cypress:https-proxy Created SNI HTTPS Proxy on port 59322 +0ms
+  cypress:server:server Setting remoteAuth undefined +40ms
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +17ms
+  cypress:server:server Setting remoteOrigin http://localhost:3000 +0ms
+  cypress:server:server Setting remoteHostAndPort { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server Setting remoteDocDomain localhost +0ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:project project config: { baseUrl: 'http://localhost:3000', chromeWebSecurity: false, blacklistHosts: [ '*google.com' ], projectRoot: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', projectName: 'CypressSlowStub', report: false, browsers: [ { name: 'chrome', displayName: 'Chrome', version: '66.0.3359.170', path: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', majorVersion: '66' }, { name: 'electron', displayName: 'Electron', version: '59.0.3071.115', path: '', majorVersion: '59', info: 'Electron is the default browser that comes with Cypress. This is the browser that runs in headless mode. Selecting this browser is useful when debugging. The version number indicates the underlying Chromium version that Electron uses.' } ], port: 59320, hosts: null, morgan: true, socketId: null, userAgent: null, isTextTerminal: false, reporter: 'spec', reporterOptions: null, clientRoute: '/__/', xhrRoute: '/xhrs/', socketIoRoute: '/__socket.io', socketIoCookie: '__socket.io', reporterRoute: '/__cypress/reporter', ignoreTestFiles: '*.hot-update.js', testFiles: '**/*.*', defaultCommandTimeout: 4000, requestTimeout: 5000, responseTimeout: 30000, pageLoadTimeout: 60000, execTimeout: 60000, taskTimeout: 60000, video: true, videoCompression: 32, videoUploadOnPasses: true, modifyObstructiveCode: true, waitForAnimations: true, animationDistanceThreshold: 5, numTestsKeptInMemory: 50, watchForFileChanges: true, trashAssetsBeforeRuns: true, autoOpen: false, viewportWidth: 1000, viewportHeight: 660, fileServerFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', videosFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/videos', supportFile: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js', fixturesFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/fixtures', integrationFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration', screenshotsFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/screenshots', namespace: '__cypress', pluginsFile: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js', javascripts: [], env: {}, cypressEnv: 'production', parentTestsFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress', parentTestsFolderDisplay: 'CypressSlowStub/cypress', supportFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support', integrationExampleName: 'examples', integrationExamplePath: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/examples', scaffoldedFiles: [ { name: 'cypress', children: [Array] } ], state: {}, isNewProject: false, proxyUrl: 'http://localhost:59320', browserUrl: 'http://localhost:3000/__/', reporterUrl: 'http://localhost:3000/__cypress/reporter', xhrUrl: '__cypress/xhrs/' } +0ms
+  cypress:server:project watch settings files +2ms
+  cypress:server:project scaffolding project /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +6ms
+  cypress:server:scaffold support folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support, support file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js +0ms
+  cypress:server:scaffold verify scaffolding in /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support +0ms
+  cypress:server:scaffold integration folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:scaffold verify scaffolding in /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:scaffold fixture folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/fixtures +0ms
+  cypress:server:scaffold verify scaffolding in /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/fixtures +0ms
+  cypress:server:timers queuing timer id 4 after 0 ms +2ms
+  cypress:server:timers child received timer id 4 +689ms
+  cypress:server:scaffold folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support already exists +1ms
+  cypress:server:scaffold folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration already exists +0ms
+  cypress:server:scaffold folder /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/fixtures already exists +0ms
+  cypress:server:project attempt watch plugins file: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js +0ms
+  cypress:server:timers child sending timer id 4 +2ms
+  cypress:server:project plugins file found? true +2ms
+  cypress:server:project watch plugins file +0ms
+  cypress:server:timers clearing timer id 4 from queue { '4': { args: [], ms: 0, cb: [Function: clear] } } +12ms
+  cypress:server:timers clearing timer id 4 from queue {} +0ms
+  cypress:server:timers queuing timer id 5 after 0 ms +1ms
+  cypress:server:timers child received timer id 5 +14ms
+  cypress:server:timers child sending timer id 5 +1ms
+  cypress:server:events sending ipc data { type: 'open:project', data: { id: 0.945991388220482, data: { baseUrl: 'http://localhost:3000', chromeWebSecurity: false, blacklistHosts: [Array], projectRoot: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', projectName: 'CypressSlowStub', report: false, browsers: [Array], port: 59320, hosts: null, morgan: true, socketId: null, userAgent: null, isTextTerminal: false, reporter: 'spec', reporterOptions: null, clientRoute: '/__/', xhrRoute: '/xhrs/', socketIoRoute: '/__socket.io', socketIoCookie: '__socket.io', reporterRoute: '/__cypress/reporter', ignoreTestFiles: '*.hot-update.js', testFiles: '**/*.*', defaultCommandTimeout: 4000, requestTimeout: 5000, responseTimeout: 30000, pageLoadTimeout: 60000, execTimeout: 60000, taskTimeout: 60000, video: true, videoCompression: 32, videoUploadOnPasses: true, modifyObstructiveCode: true, waitForAnimations: true, animationDistanceThreshold: 5, numTestsKeptInMemory: 50, watchForFileChanges: true, trashAssetsBeforeRuns: true, autoOpen: false, viewportWidth: 1000, viewportHeight: 660, fileServerFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', videosFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/videos', supportFile: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js', fixturesFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/fixtures', integrationFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration', screenshotsFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/screenshots', namespace: '__cypress', pluginsFile: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/plugins/index.js', javascripts: [], env: {}, cypressEnv: 'production', resolved: [Object], parentTestsFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress', parentTestsFolderDisplay: 'CypressSlowStub/cypress', supportFolder: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support', integrationExampleName: 'examples', integrationExamplePath: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/examples', scaffoldedFiles: [Array], state: {}, isNewProject: false, proxyUrl: 'http://localhost:59320', browserUrl: 'http://localhost:3000/__/', reporterUrl: 'http://localhost:3000/__cypress/reporter', xhrUrl: '__cypress/xhrs/' } } } +1ms
+  cypress:server:timers clearing timer id 5 from queue { '5': { args: [], ms: 0, cb: [Function: clear] } } +10ms
+  cypress:server:timers clearing timer id 5 from queue {} +0ms
+  cypress:server:events got request for event: get:specs, undefined +12ms
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +23ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +2ms
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.27804493541575726, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +2ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:events sending ipc data { type: 'get:specs', data: { id: 0.4936705609268337, data: { integration: [Array] } } } +0ms
+  cypress:server:timers child sending timer id 2 +604ms
+  cypress:server:timers child sending timer id 3 +666ms
+  cypress:server:updater latest version of Cypress is: 3.0.2 +2s
+  cypress:server:updater new version of Cypress does not exist +0ms
+  cypress:server:events sending ipc data { type: 'updater:check', data: { id: 0.26226352920771445, data: false } } +0ms
+  cypress:server:timers child sending timer id 6 +1s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] } } +333ms
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:events got request for event: close:browser, undefined +986ms
+  cypress:server:events sending ipc data { type: 'close:browser', data: { id: 0.0394244493072351, data: undefined } } +0ms
+  cypress:server:events got request for event: launch:browser, { browser: { isChosen: true, majorVersion: '66', name: 'chrome', path: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', version: '66.0.3359.170' }, spec: { absolute: null, name: 'All Specs', relative: null } } +6ms
+  cypress:server:openproject resetting project state, preparing to launch browser +1ms
+  cypress:server:project resetting project instance /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:server Setting remoteAuth undefined +0ms
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server Setting remoteOrigin http://localhost:3000 +1ms
+  cypress:server:server Setting remoteHostAndPort { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server Setting remoteDocDomain localhost +0ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +0ms
+  cypress:server:openproject launching browser: chrome, spec: null +1ms
+  cypress:server:browsers opening browser chrome +2ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/extensions/chrome +3ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/extensions/chrome/background.js +0ms
+  cypress:server:browsers launch in chrome: http://localhost:3000/__/#/tests/__all, --test-type,--ignore-certificate-errors,--start-maximized,--silent-debugger-extension-api,--no-default-browser-check,--no-first-run,--noerrdialogs,--enable-fixed-layout,--disable-popup-blocking,--disable-password-generation,--disable-save-password-bubble,--disable-single-click-autofill,--disable-prompt-on-repos,--disable-background-timer-throttling,--disable-renderer-backgrounding,--disable-renderer-throttling,--disable-restore-session-state,--disable-translate,--disable-new-profile-management,--disable-new-avatar-menu,--allow-insecure-localhost,--reduce-security-for-testing,--enable-automation,--disable-infobars,--disable-device-discovery-notifications,--disable-blink-features=RootLayerScrolling,--metrics-recording-only,--disable-prompt-on-repost,--disable-hang-monitor,--disable-sync,--disable-web-resources,--safebrowsing-disable-auto-update,--safebrowsing-disable-download-protection,--disable-client-side-phishing-detection,--disable-component-update,--disable-default-apps,--proxy-server=http://localhost:59320,--disable-web-security,--allow-running-insecure-content,--load-extension=/Users/omriaharon/Library/Application Support/Cypress/cy/production/extensions/chrome,/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/extension/theme,--user-data-dir=/Users/omriaharon/Library/Application Support/Cypress/cy/production/browsers/chrome,--disk-cache-dir=/Users/omriaharon/Library/Application Support/Cypress/cy/production/browsers/chrome/CypressCache +19ms
+  cypress:launcher checking one browser chrome +9s
+  cypress:launcher looking up chrome on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome id com.google.Chrome +0ms
+  cypress:launcher looking for bundle id com.google.Chrome using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome at /Applications/Google Chrome.app +54ms
+  cypress:launcher reading property file "/Applications/Google Chrome.app/Contents/Info.plist" +1ms
+  cypress:launcher setting major version for {"name":"chrome","displayName":"Chrome","version":"66.0.3359.170","path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"} +5ms
+  cypress:launcher browser chrome version 66.0.3359.170 major version 66 +1ms
+  cypress:launcher checking one browser chromium +0ms
+  cypress:launcher looking up chromium on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Chromium id org.chromium.Chromium +0ms
+  cypress:launcher looking for bundle id org.chromium.Chromium using command: mdfind 'kMDItemCFBundleIdentifier=="org.chromium.Chromium"' | head -1 +0ms
+  cypress:launcher found org.chromium.Chromium at  +48ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +1ms
+  cypress:launcher looking for application /Applications/Chromium.app +0ms
+  cypress:launcher reading property file "/Applications/Chromium.app/Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for /Applications/Chromium.app/Contents/Info.plist +0ms
+  cypress:launcher could not detect chromium using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "chromium-browser --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c chromium-browser --version
+/bin/sh: chromium-browser: command not found
+ +7ms
+  cypress:launcher browser chromium not installed +0ms
+  cypress:launcher checking one browser canary +1ms
+  cypress:launcher looking up canary on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome Canary id com.google.Chrome.canary +0ms
+  cypress:launcher looking for bundle id com.google.Chrome.canary using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome.canary"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome.canary at  +51ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +2ms
+  cypress:launcher looking for application /Applications/Google Chrome Canary.app +0ms
+  cypress:launcher reading property file "/Applications/Google Chrome Canary.app/Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for /Applications/Google Chrome Canary.app/Contents/Info.plist +0ms
+  cypress:launcher could not detect canary using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "google-chrome-canary --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c google-chrome-canary --version
+/bin/sh: google-chrome-canary: command not found
+ +8ms
+  cypress:launcher browser canary not installed +0ms
+  cypress:launcher launching browser chrome to open http://localhost:3000/__/#/tests/__all +0ms
+  cypress:launcher spawning browser /Applications/Google Chrome.app/Contents/MacOS/Google Chrome with args http://localhost:3000/__/#/tests/__all --test-type --ignore-certificate-errors --start-maximized --silent-debugger-extension-api --no-default-browser-check --no-first-run --noerrdialogs --enable-fixed-layout --disable-popup-blocking --disable-password-generation --disable-save-password-bubble --disable-single-click-autofill --disable-prompt-on-repos --disable-background-timer-throttling --disable-renderer-backgrounding --disable-renderer-throttling --disable-restore-session-state --disable-translate --disable-new-profile-management --disable-new-avatar-menu --allow-insecure-localhost --reduce-security-for-testing --enable-automation --disable-infobars --disable-device-discovery-notifications --disable-blink-features=RootLayerScrolling --metrics-recording-only --disable-prompt-on-repost --disable-hang-monitor --disable-sync --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --proxy-server=http://localhost:59320 --disable-web-security --allow-running-insecure-content --load-extension=/Users/omriaharon/Library/Application Support/Cypress/cy/production/extensions/chrome,/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/extension/theme --user-data-dir=/Users/omriaharon/Library/Application Support/Cypress/cy/production/browsers/chrome --disk-cache-dir=/Users/omriaharon/Library/Application Support/Cypress/cy/production/browsers/chrome/CypressCache +1ms
+  cypress:server:browsers browser opened +185ms
+  cypress:server:timers queuing timer id 7 after 1000 ms +1ms
+  cypress:server:timers child received timer id 7 +1s
+  cypress:server:server Got CONNECT request from clientservices.googleapis.com:443 +677ms
+  cypress:https-proxy Writing socket connection headers for URL: clientservices.googleapis.com:443 +9s
+  cypress:server:server Got CONNECT request from translate.googleapis.com:443 +0ms
+  cypress:https-proxy Writing socket connection headers for URL: translate.googleapis.com:443 +1ms
+  cypress:server:cors Parsed URL { port: '443', tld: 'googleapis.com', domain: 'clientservices' } +18ms
+  cypress:server:server HTTPS request does not match URL: https://clientservices.googleapis.com:443 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request https://clientservices.googleapis.com:443 matches blacklist? undefined +1ms
+  cypress:https-proxy Making direct connection to clientservices.googleapis.com:443 +18ms
+  cypress:server:cors Parsed URL { port: '443', tld: 'googleapis.com', domain: 'translate' } +1ms
+  cypress:server:server HTTPS request does not match URL: https://translate.googleapis.com:443 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request https://translate.googleapis.com:443 matches blacklist? undefined +0ms
+  cypress:https-proxy Making direct connection to translate.googleapis.com:443 +1ms
+  cypress:server:timers child sending timer id 7 +1s
+  cypress:server:timers clearing timer id 7 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '7': { args: [], ms: 1000, cb: [Function] } } +307ms
+  cypress:server:events sending ipc data { type: 'launch:browser', data: { id: 0.9923062029273102, data: { browserOpened: true } } } +0ms
+  cypress:server:timers child sending timer id 6 +291ms
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +1ms
+  cypress:server:timers child received timer id 6 +1s
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1ms
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.9758994517668065, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +0ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +2s
+  cypress:server:routes Serving Cypress front-end by requested URL: /__/ +28ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:runner serving runner index.html with config { version: '3.0.2', platform: 'darwin', arch: 'x64', projectName: 'CypressSlowStub' } +0ms
+GET /__/ 200 23.654 ms - -
+  cypress:server:server Got CONNECT request from localhost:59320 +441ms
+  cypress:https-proxy Writing socket connection headers for URL: localhost:59320 +4s
+  cypress:server:cors Parsed URL { port: '59320', tld: 'localhost', domain: '' } +2ms
+  cypress:server:server HTTPS request does not match URL: https://localhost:59320 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request https://localhost:59320 matches blacklist? undefined +0ms
+  cypress:https-proxy Making direct connection to localhost:59320 +2ms
+  cypress:server:server Got UPGRADE request from /__socket.io/?EIO=3&transport=websocket +3ms
+  cypress:server:timers queuing timer id 8 after 85000 ms +7ms
+  cypress:server:timers child received timer id 8 +2s
+  cypress:server:socket socket connected +2ms
+  cypress:server:timers clearing timer id 8 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] } } +14ms
+  cypress:server:timers queuing timer id 9 after 85000 ms +0ms
+  cypress:server:timers child received timer id 9 +16ms
+  cypress:server:socket automation:client connected +1ms
+GET /__cypress/runner/cypress_runner.css 200 56.512 ms - -
+GET /__cypress/runner/cypress_runner.js 200 317.544 ms - -
+  cypress:server:timers child sending timer id 6 +376ms
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '9': { args: [], ms: 85000, cb: [Function] } } +376ms
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:server Got CONNECT request from localhost:3000 +113ms
+  cypress:https-proxy Writing socket connection headers for URL: localhost:3000 +517ms
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +1ms
+  cypress:server:server HTTPS request does match URL: https://localhost:3000 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:https-proxy Not making direct connection to localhost:3000 +1ms
+  cypress:https-proxy Making intercepted connection to 59320 +0ms
+  cypress:server:server Got UPGRADE request from /__socket.io/?EIO=3&transport=websocket +2ms
+  cypress:server:timers queuing timer id 10 after 85000 ms +1ms
+  cypress:server:timers child received timer id 10 +118ms
+  cypress:server:socket socket connected +0ms
+  cypress:server:timers clearing timer id 10 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '9': { args: [], ms: 85000, cb: [Function] }, '10': { args: [], ms: 85000, cb: [Function] } } +37ms
+  cypress:server:timers queuing timer id 11 after 85000 ms +1ms
+  cypress:server:timers child received timer id 11 +38ms
+  cypress:server:timers clearing timer id 11 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '9': { args: [], ms: 85000, cb: [Function] }, '11': { args: [], ms: 85000, cb: [Function] } } +17ms
+  cypress:server:timers queuing timer id 12 after 85000 ms +0ms
+  cypress:server:timers child received timer id 12 +17ms
+  cypress:server:timers queuing timer id 13 after 1000 ms +1ms
+  cypress:server:timers child received timer id 13 +1ms
+  cypress:server:timers clearing timer id 9 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '9': { args: [], ms: 85000, cb: [Function] }, '12': { args: [], ms: 85000, cb: [Function] }, '13': { args: [], ms: 1000, cb: [Function: timeoutTimeout] } } +21ms
+  cypress:server:timers queuing timer id 14 after 85000 ms +0ms
+  cypress:server:timers child received timer id 14 +21ms
+  cypress:server:timers clearing timer id 13 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '12': { args: [], ms: 85000, cb: [Function] }, '13': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '14': { args: [], ms: 85000, cb: [Function] } } +0ms
+GET /__cypress/runner/fonts/fontawesome-webfont.woff2?v=4.7.0 200 3.122 ms - 77160
+  cypress:server:server Got CONNECT request from www.google.com:443 +110ms
+  cypress:https-proxy Writing socket connection headers for URL: www.google.com:443 +190ms
+  cypress:server:cors Parsed URL { port: '443', tld: 'com', domain: 'google' } +1ms
+  cypress:server:server HTTPS request does not match URL: https://www.google.com:443 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request https://www.google.com:443 matches blacklist? *google.com +0ms
+  cypress:https-proxy Not making direct connection to www.google.com:443 +1ms
+  cypress:https-proxy Making intercepted connection to 59322 +4ms
+  cypress:server:timers clearing timer id 12 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '12': { args: [], ms: 85000, cb: [Function] }, '14': { args: [], ms: 85000, cb: [Function] } } +45ms
+  cypress:server:timers queuing timer id 15 after 85000 ms +0ms
+  cypress:server:timers child received timer id 15 +157ms
+  cypress:server:events sending ipc data { type: 'on:spec:changed', data: { id: 0.9669880214795168, data: '__all' } } +1ms
+  cypress:server:timers clearing timer id 15 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '15': { args: [], ms: 85000, cb: [Function] } } +86ms
+  cypress:server:timers queuing timer id 16 after 85000 ms +1ms
+  cypress:server:timers child received timer id 16 +87ms
+  cypress:server:socket watch test file __all +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +2ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +2ms
+GET /__cypress/iframes/__all 200 13.975 ms - 708
+  cypress:server:controllers:spec request for cypress/support/index.js +25ms
+  cypress:server:preprocessor getFile /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js +1ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js +0ms
+  cypress:server:preprocessor set default preprocessor +0ms
+  cypress:browserify received user options: {} +0ms
+  cypress:server:plugins register event 'file:preprocessor' +272ms
+  cypress:server:plugins execute plugin event 'file:preprocessor' with args: EventEmitter { domain: null, _events: { rerun: [Function] }, _eventsCount: 1, _maxListeners: undefined, filePath: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js', shouldWatch: true, outputPath: '/Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js' } undefined undefined +0ms
+  cypress:browserify get: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js +2ms
+  cypress:browserify input: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js +0ms
+  cypress:browserify output: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js +0ms
+  cypress:browserify browserifyOptions { extensions: [ '.js', '.jsx', '.coffee', '.cjsx' ], transform: [ [ '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/browserify-preprocessor/cjsxify.js', {} ], [ '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server/node_modules/babelify/index.js', [Object] ] ], plugin: [], cache: {}, packageCache: {}, entries: [ '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/support/index.js' ] }: +0ms
+  cypress:browserify watching +8ms
+  cypress:server:controllers:spec request for cypress/integration/sample.spec.js +12ms
+  cypress:server:preprocessor getFile /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +0ms
+  cypress:server:appdata path: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js +0ms
+  cypress:server:plugins execute plugin event 'file:preprocessor' with args: EventEmitter { domain: null, _events: { rerun: [Function] }, _eventsCount: 1, _maxListeners: undefined, filePath: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js', shouldWatch: true, outputPath: '/Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js' } undefined undefined +0ms
+  cypress:browserify get: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +4ms
+  cypress:browserify input: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +0ms
+  cypress:browserify output: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js +0ms
+  cypress:browserify browserifyOptions { extensions: [ '.js', '.jsx', '.coffee', '.cjsx' ], transform: [ [ '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/browserify-preprocessor/cjsxify.js', [Object] ], [ '/Users/omriaharon/Library/Caches/Cypress/3.0.2/Cypress.app/Contents/Resources/app/packages/server/node_modules/babelify/index.js', [Object] ] ], plugin: [], cache: {}, packageCache: {}, entries: [ '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' ] }: +0ms
+  cypress:browserify watching +2ms
+  cypress:browserify making bundle /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js +2ms
+  cypress:browserify making bundle /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js +1ms
+  cypress:server:server Got CONNECT request from www.google.com:443 +7ms
+  cypress:https-proxy Writing socket connection headers for URL: www.google.com:443 +451ms
+  cypress:server:cors Parsed URL { port: '443', tld: 'com', domain: 'google' } +1ms
+  cypress:server:server HTTPS request does not match URL: https://www.google.com:443 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request https://www.google.com:443 matches blacklist? *google.com +0ms
+  cypress:https-proxy Not making direct connection to www.google.com:443 +1ms
+  cypress:https-proxy Making intercepted connection to 59322 +1ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +12ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +9ms
+GET /searchdomaincheck?format=domain&type=chrome 503 10.318 ms - -
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +11ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +1ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +0ms
+GET /searchdomaincheck?format=domain&type=chrome 503 1.073 ms - -
+  cypress:server:timers queuing timer id 17 after 0 ms +1ms
+  cypress:server:timers child received timer id 17 +357ms
+  cypress:server:timers queuing timer id 18 after 0 ms +0ms
+  cypress:server:timers child received timer id 18 +0ms
+  cypress:server:timers queuing timer id 19 after 0 ms +0ms
+  cypress:server:timers child received timer id 19 +0ms
+  cypress:server:timers child sending timer id 17 +0ms
+  cypress:server:timers child sending timer id 18 +0ms
+  cypress:server:timers queuing timer id 20 after 0 ms +0ms
+  cypress:server:timers child received timer id 20 +0ms
+  cypress:server:timers clearing timer id 17 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '17': { args: [], ms: 0, cb: [Function: clear] }, '18': { args: [], ms: 0, cb: [Function: clear] }, '19': { args: [], ms: 0, cb: [Function: clear] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +1ms
+  cypress:server:timers clearing timer id 17 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '18': { args: [], ms: 0, cb: [Function: clear] }, '19': { args: [], ms: 0, cb: [Function: clear] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +0ms
+  cypress:server:timers child sending timer id 19 +2ms
+  cypress:server:timers child sending timer id 20 +0ms
+  cypress:server:timers clearing timer id 18 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '18': { args: [], ms: 0, cb: [Function: clear] }, '19': { args: [], ms: 0, cb: [Function: clear] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +1ms
+  cypress:server:timers clearing timer id 18 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '19': { args: [], ms: 0, cb: [Function: clear] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +0ms
+  cypress:server:timers clearing timer id 19 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '19': { args: [], ms: 0, cb: [Function: clear] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +1ms
+  cypress:server:timers clearing timer id 19 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +0ms
+  cypress:server:timers clearing timer id 20 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '20': { args: [], ms: 0, cb: [Function: clear] } } +0ms
+  cypress:server:timers clearing timer id 20 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] } } +0ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +1ms
+GET /searchdomaincheck?format=domain&type=chrome 503 0.911 ms - -
+  cypress:server:timers child sending timer id 13 +379ms
+  cypress:browserify finished bundling: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js +723ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +683ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +1ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +0ms
+GET /searchdomaincheck?format=domain&type=chrome 503 1.909 ms - -
+  cypress:server:controllers:spec send /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/integration/sample.spec.js +1ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +3ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +1ms
+GET /searchdomaincheck?format=domain&type=chrome 503 1.218 ms - -
+GET /__cypress/tests?p=cypress/integration/sample.spec.js-002 200 736.596 ms - 722
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +3ms
+  cypress:server:proxy handling proxied request { url: '/searchdomaincheck?format=domain&type=chrome', proxiedUrl: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/searchdomaincheck?format=domain&type=chrome', matched: '*google.com' } +0ms
+GET /searchdomaincheck?format=domain&type=chrome 503 1.141 ms - -
+  cypress:server:timers queuing timer id 21 after 0 ms +2ms
+  cypress:server:timers child received timer id 21 +318ms
+  cypress:server:timers child sending timer id 21 +1ms
+  cypress:server:timers clearing timer id 21 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '21': { args: [], ms: 0, cb: [Function: clear] } } +17ms
+  cypress:server:timers clearing timer id 21 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] } } +0ms
+  cypress:server:timers queuing timer id 22 after 0 ms +3ms
+  cypress:server:timers child received timer id 22 +19ms
+  cypress:server:timers child sending timer id 22 +1ms
+  cypress:server:timers clearing timer id 22 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '22': { args: [], ms: 0, cb: [Function: clear] } } +23ms
+  cypress:server:timers clearing timer id 22 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] } } +0ms
+  cypress:server:timers queuing timer id 23 after 0 ms +3ms
+  cypress:server:timers child received timer id 23 +25ms
+  cypress:server:timers child sending timer id 23 +2ms
+  cypress:server:timers clearing timer id 23 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] }, '23': { args: [], ms: 0, cb: [Function: clear] } } +12ms
+  cypress:server:timers clearing timer id 23 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] } } +0ms
+  cypress:browserify finished bundling: /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js +70ms
+  cypress:server:controllers:spec send /Users/omriaharon/Library/Application Support/Cypress/cy/production/projects/CypressSlowStub-c5d68340889ddc9f880110405356ca14/bundles/cypress/support/index.js +0ms
+GET /__cypress/tests?p=cypress/support/index.js-185 200 1086.061 ms - -
+  cypress:server:timers clearing timer id 16 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '16': { args: [], ms: 85000, cb: [Function] } } +7ms
+  cypress:server:timers queuing timer id 24 after 85000 ms +1ms
+  cypress:server:timers child received timer id 24 +18ms
+  cypress:server:timers clearing timer id 24 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '24': { args: [], ms: 85000, cb: [Function] } } +47ms
+  cypress:server:timers queuing timer id 25 after 85000 ms +1ms
+  cypress:server:timers child received timer id 25 +49ms
+  cypress:server:socket automation:request 'get:cookies' { domain: 'localhost' } +1ms
+  cypress:server:timers clearing timer id 14 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '14': { args: [], ms: 85000, cb: [Function] }, '25': { args: [], ms: 85000, cb: [Function] } } +4ms
+  cypress:server:timers queuing timer id 26 after 85000 ms +0ms
+  cypress:server:timers child received timer id 26 +5ms
+  cypress:server:timers clearing timer id 26 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '25': { args: [], ms: 85000, cb: [Function] }, '26': { args: [], ms: 85000, cb: [Function] } } +56ms
+  cypress:server:timers queuing timer id 27 after 85000 ms +0ms
+  cypress:server:timers child received timer id 27 +56ms
+  cypress:server:timers clearing timer id 25 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '25': { args: [], ms: 85000, cb: [Function] }, '27': { args: [], ms: 85000, cb: [Function] } } +19ms
+  cypress:server:timers queuing timer id 28 after 85000 ms +0ms
+  cypress:server:timers child received timer id 28 +18ms
+  cypress:server:socket backend:request { eventName: 'resolve:url', args: [ 'http://localhost:3000/', { failOnStatusCode: true, auth: null } ] } +0ms
+  cypress:server:server resolving visit { url: 'http://localhost:3000/', headers: { host: 'localhost:3000', connection: 'Upgrade', pragma: 'no-cache', 'cache-control': 'no-cache', upgrade: 'websocket', origin: 'http://localhost:3000', 'sec-websocket-version': '13', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', 'sec-websocket-key': 'eBg9+rE0Qf9L6iTUgw5srA==', 'sec-websocket-extensions': 'permessage-deflate; client_max_window_bits' }, options: { failOnStatusCode: true, auth: null } } +1ms
+  cypress:server:server Getting remote state: { auth: undefined, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +0ms
+  cypress:server:timers clearing timer id 27 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '27': { args: [], ms: 85000, cb: [Function] }, '28': { args: [], ms: 85000, cb: [Function] } } +6ms
+  cypress:server:timers queuing timer id 29 after 85000 ms +0ms
+  cypress:server:timers child received timer id 29 +8ms
+  cypress:server:timers queuing timer id 30 after 30000 ms +10ms
+  cypress:server:timers child received timer id 30 +9ms
+  cypress:server:timers clearing timer id 30 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '29': { args: [], ms: 85000, cb: [Function] }, '30': { args: [], ms: 30000, cb: [Function] } } +0ms
+  cypress:server:server received response for resolving url { isOkStatusCode: true, isHtml: true, contentType: 'text/html', url: 'http://localhost:3000/', status: 200, cookies: [], statusText: 'OK', redirects: [], originalUrl: 'http://localhost:3000/' } +6ms
+  cypress:server:server Setting remoteAuth null +0ms
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server Setting remoteOrigin http://localhost:3000 +1ms
+  cypress:server:server Setting remoteHostAndPort { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server Setting remoteDocDomain localhost +0ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +0ms
+  cypress:server:timers clearing timer id 29 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '29': { args: [], ms: 85000, cb: [Function] } } +4ms
+  cypress:server:timers queuing timer id 31 after 85000 ms +0ms
+  cypress:server:timers child received timer id 31 +11ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:proxy handling proxied request { url: '/', proxiedUrl: 'http://localhost:3000/', headers: { host: 'localhost:3000', 'proxy-connection': 'keep-alive', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', referer: 'http://localhost:3000/__/', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: '__cypress.initial=true' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:proxy received response for { url: 'http://localhost:3000/', headers: { 'x-powered-by': 'Express', 'access-control-allow-origin': '*', 'accept-ranges': 'bytes', 'content-type': 'text/html; charset=UTF-8', 'content-length': '389', etag: 'W/"185-YWm1d5OeVAAK/o87DNK+tbdHNHI"', date: 'Fri, 13 Jul 2018 09:39:08 GMT', connection: 'close' }, statusCode: 200, isGzipped: undefined, wantsInjection: 'full', wantsSecurityRemoved: true } +2ms
+GET / 200 4.072 ms - -
+  cypress:server:timers clearing timer id 31 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '31': { args: [], ms: 85000, cb: [Function] } } +3ms
+  cypress:server:timers queuing timer id 32 after 85000 ms +0ms
+  cypress:server:timers child received timer id 32 +6ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +7ms
+  cypress:server:proxy handling proxied request { url: '/runtime~application-d2499bad4b04647622d9.js', proxiedUrl: 'http://localhost:3000/runtime~application-d2499bad4b04647622d9.js', headers: { host: 'localhost:3000', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', accept: '*/*', referer: 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:timers queuing timer id 33 after 30000 ms +8ms
+  cypress:server:timers child received timer id 33 +15ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:proxy handling proxied request { url: '/application-d2499bad4b04647622d9.js', proxiedUrl: 'http://localhost:3000/application-d2499bad4b04647622d9.js', headers: { host: 'localhost:3000', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', accept: '*/*', referer: 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:timers queuing timer id 34 after 30000 ms +1ms
+  cypress:server:timers child received timer id 34 +2ms
+  cypress:server:timers clearing timer id 33 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '33': { args: [], ms: 30000, cb: [Function] }, '34': { args: [], ms: 30000, cb: [Function] } } +0ms
+  cypress:server:timers clearing timer id 34 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '34': { args: [], ms: 30000, cb: [Function] } } +1ms
+  cypress:server:proxy received response for { url: 'http://localhost:3000/runtime~application-d2499bad4b04647622d9.js', headers: { 'x-powered-by': 'Express', 'access-control-allow-origin': '*', 'accept-ranges': 'bytes', 'content-type': 'application/javascript; charset=UTF-8', 'content-length': '31801', etag: 'W/"7c39-H/s0INJztd37Rjym9ykfzCS+veo"', date: 'Fri, 13 Jul 2018 09:39:08 GMT', connection: 'close' }, statusCode: 200, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: true } +1ms
+  cypress:server:proxy received response for { url: 'http://localhost:3000/application-d2499bad4b04647622d9.js', headers: { 'x-powered-by': 'Express', 'access-control-allow-origin': '*', 'accept-ranges': 'bytes', 'content-type': 'application/javascript; charset=UTF-8', 'content-length': '1137341', etag: 'W/"115abd-ZjwtqvzLSmvH9LUDr/7ntY+WHes"', date: 'Fri, 13 Jul 2018 09:39:08 GMT', connection: 'close' }, statusCode: 200, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: true } +11ms
+GET /runtime~application-d2499bad4b04647622d9.js 200 38.041 ms - -
+GET /application-d2499bad4b04647622d9.js 200 104.020 ms - -
+GET /__cypress/xhrs/https://www.test-cors.org/ 200 2.229 ms - -
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +182ms
+  cypress:server:proxy handling proxied request { url: '/', proxiedUrl: 'https://www.google.com/', headers: { host: 'www.google.com', connection: 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', accept: '*/*', referer: 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9', cookie: 'NID=129=fFbK4MXrmO2lgthsFJVwmjdFe4_vDMHCLw0e2Kdxi96FXxxHt3FM3FSSKAMzyoHq-7U7P_WV6GagrF_EWqUv1WlWLSSihVDLdmbPDd57i7HQrKeJEfKz8NtYrM0PHue4' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +1ms
+  cypress:server:proxy blacklisting request { url: 'https://www.google.com/', matched: '*google.com' } +0ms
+GET / 503 0.992 ms - -
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +69ms
+  cypress:server:proxy handling proxied request { url: '/sockjs-node/info?t=1531474748325', proxiedUrl: 'http://localhost:3000/sockjs-node/info?t=1531474748325', headers: { host: 'localhost:3000', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', accept: '*/*', referer: 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:timers queuing timer id 35 after 30000 ms +2ms
+  cypress:server:timers child received timer id 35 +267ms
+  cypress:server:timers clearing timer id 35 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '35': { args: [], ms: 30000, cb: [Function] } } +1ms
+  cypress:server:proxy received response for { url: 'http://localhost:3000/sockjs-node/info?t=1531474748325', headers: { 'access-control-allow-origin': '*', vary: 'Origin', 'cache-control': 'no-store, no-cache, no-transform, must-revalidate, max-age=0', 'content-type': 'application/json; charset=UTF-8', date: 'Fri, 13 Jul 2018 09:39:08 GMT', connection: 'close', 'transfer-encoding': 'chunked' }, statusCode: 200, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: false } +1ms
+GET /sockjs-node/info?t=1531474748325 200 5.283 ms - -
+  cypress:server:server Got CONNECT request from localhost:3000 +11ms
+  cypress:https-proxy Writing socket connection headers for URL: localhost:3000 +1s
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:server:server HTTPS request does match URL: https://localhost:3000 with props: { port: '3000', tld: 'localhost', domain: '' } +1ms
+  cypress:https-proxy Not making direct connection to localhost:3000 +1ms
+  cypress:https-proxy Making intercepted connection to 59320 +0ms
+  cypress:server:server Got UPGRADE request from /sockjs-node/645/blkgj1o4/websocket +2ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +306ms
+  cypress:server:proxy handling proxied request { url: '/', proxiedUrl: 'http://mqfbudbbrihtvkg/', headers: { host: 'mqfbudbbrihtvkg', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +1ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server:proxy handling proxied request { url: '/', proxiedUrl: 'http://jsjkvumvvpfwles/', headers: { host: 'jsjkvumvvpfwles', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:server Getting remote state: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } +2ms
+  cypress:server:proxy handling proxied request { url: '/', proxiedUrl: 'http://sxxwuubnsmilhi/', headers: { host: 'sxxwuubnsmilhi', 'proxy-connection': 'keep-alive', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36', 'accept-encoding': 'gzip, deflate' }, remoteState: { auth: null, props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: false, domainName: 'localhost', fileServer: null } } +0ms
+  cypress:server:timers child sending timer id 6 +498ms
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +172ms
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers queuing timer id 36 after 30000 ms +362ms
+  cypress:server:timers child received timer id 36 +363ms
+  cypress:server:timers clearing timer id 36 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '36': { args: [], ms: 30000, cb: [Function] } } +1ms
+  cypress:server:cors Parsed URL { port: '80', tld: 'mqfbudbbrihtvkg', domain: '' } +1ms
+  cypress:server:proxy received response for { url: 'http://mqfbudbbrihtvkg/', headers: { 'content-type': 'text/html' }, statusCode: 500, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: false } +0ms
+  cypress:server:proxy request failed { url: 'http://mqfbudbbrihtvkg/', status: 500, error: 'Error: getaddrinfo ENOTFOUND mqfbudbbrihtvkg mqfbudbbrihtvkg:80\n    at errnoException (dns.js:50:10)\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)\n' } +1ms
+HEAD / 500 542.840 ms - -
+  cypress:server:timers queuing timer id 37 after 30000 ms +2ms
+  cypress:server:timers child received timer id 37 +5ms
+  cypress:server:timers clearing timer id 37 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '37': { args: [], ms: 30000, cb: [Function] } } +1ms
+  cypress:server:cors Parsed URL { port: '80', tld: 'jsjkvumvvpfwles', domain: '' } +1ms
+  cypress:server:proxy received response for { url: 'http://jsjkvumvvpfwles/', headers: { 'content-type': 'text/html' }, statusCode: 500, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: false } +0ms
+  cypress:server:proxy request failed { url: 'http://jsjkvumvvpfwles/', status: 500, error: 'Error: getaddrinfo ENOTFOUND jsjkvumvvpfwles jsjkvumvvpfwles:80\n    at errnoException (dns.js:50:10)\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)\n' } +0ms
+HEAD / 500 545.446 ms - -
+  cypress:server:timers queuing timer id 38 after 30000 ms +2ms
+  cypress:server:timers child received timer id 38 +4ms
+  cypress:server:timers clearing timer id 38 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] }, '38': { args: [], ms: 30000, cb: [Function] } } +1ms
+  cypress:server:cors Parsed URL { port: '80', tld: 'sxxwuubnsmilhi', domain: '' } +1ms
+  cypress:server:proxy received response for { url: 'http://sxxwuubnsmilhi/', headers: { 'content-type': 'text/html' }, statusCode: 500, isGzipped: undefined, wantsInjection: false, wantsSecurityRemoved: false } +0ms
+  cypress:server:proxy request failed { url: 'http://sxxwuubnsmilhi/', status: 500, error: 'Error: getaddrinfo ENOTFOUND sxxwuubnsmilhi sxxwuubnsmilhi:80\n    at errnoException (dns.js:50:10)\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)\n' } +0ms
+HEAD / 500 547.738 ms - -
+  cypress:server:timers child sending timer id 6 +2s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +2s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1s
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.25038000852099684, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +2ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1s
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.927525978330421, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +3ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +5ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers clearing timer id 32 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '32': { args: [], ms: 85000, cb: [Function] } } +2s
+  cypress:server:timers queuing timer id 39 after 85000 ms +1ms
+  cypress:server:timers child received timer id 39 +2s
+  cypress:server:timers child sending timer id 6 +430ms
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '39': { args: [], ms: 85000, cb: [Function] } } +430ms
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +2ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers clearing timer id 28 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '28': { args: [], ms: 85000, cb: [Function] }, '39': { args: [], ms: 85000, cb: [Function] } } +107ms
+  cypress:server:timers queuing timer id 40 after 85000 ms +1ms
+  cypress:server:timers child received timer id 40 +110ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1s
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.8209154640284722, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:timers child sending timer id 6 +2s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +2ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 30 +2s
+  cypress:server:timers child sending timer id 33 +27ms
+  cypress:server:timers child sending timer id 34 +5ms
+  cypress:server:timers child sending timer id 35 +268ms
+  cypress:server:timers child sending timer id 6 +549ms
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 36 +313ms
+  cypress:server:timers child sending timer id 37 +2ms
+  cypress:server:timers child sending timer id 38 +5ms
+  cypress:server:timers child sending timer id 6 +2s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +1ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1s
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +1ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.9292269923633694, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +1ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +1ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +3ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +3s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +2ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +173ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +2s
+  cypress:server:timers queuing timer id 6 after 2500 ms +1ms
+  cypress:server:timers child received timer id 6 +3ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +2ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +2ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
+  cypress:server:events got request for event: get:project:status, { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub' } +1s
+  cypress:server:project get project status for undefined /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub +0ms
+  cypress:server:project no project id +0ms
+  cypress:server:events sending ipc data { type: 'get:project:status', data: { id: 0.685005015673098, data: { path: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub', state: 'VALID' } } } +1ms
+  cypress:server:timers child sending timer id 6 +3s
+  cypress:server:timers clearing timer id 6 from queue { '6': { args: [], ms: 2500, cb: [Function: cb] }, '39': { args: [], ms: 85000, cb: [Function] }, '40': { args: [], ms: 85000, cb: [Function] } } +1s
+  cypress:server:timers queuing timer id 6 after 2500 ms +0ms
+  cypress:server:timers child received timer id 6 +1ms
+  cypress:server:specs looking for test specs in the folder: /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration +0ms
+  cypress:server:specs found spec file /Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js +4ms
+  cypress:server:specs found 1 spec files: [ { name: 'sample.spec.js', relative: 'cypress/integration/sample.spec.js', absolute: '/Users/omriaharon/Documents/WebstormProjects/CypressSlowStub/cypress/integration/sample.spec.js' } ] +0ms
